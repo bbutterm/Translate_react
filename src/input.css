@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .parent {
+        @apply flex min-h-full min-w-full content-center justify-start flex-wrap
+    }
+}
